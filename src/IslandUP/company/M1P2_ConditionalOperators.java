@@ -69,17 +69,93 @@ public class M1P2_ConditionalOperators {
         System.out.println("Negative quantity is " + negativeCounter);
 
     }
-    //Conditional_05 Integer number means calendar year. Check how many days in year. If day quantity 365 it  is typical year if 366 is leap year. Diapason from 100 to 2020
-    public void check05(int year){
-        System.out.println("Conditional_05 Integer number means calendar year. Check how many days in year. If day quantity 365 it  is typical year if 366 is leap year. Diapason from 100 to 2020");
-        if (year%4==0 & year%100!=0 | year%400==0){
-            System.out.println(year+" This is leap year ");
-        }
-        else{
 
-            System.out.println(year+" This is typical year ");
+    //Conditional_05 Integer number means calendar year. Check how many days in year. If day quantity 365 it  is typical year if 366 is leap year. Diapason from 100 to 2020
+    public void check05(int year) {
+        System.out.println("Conditional_05 Integer number means calendar year. Check how many days in year. If day quantity 365 it  is typical year if 366 is leap year. Diapason from 100 to 2020");
+        if (year % 4 == 0 & year % 100 != 0 | year % 400 == 0) {
+            System.out.println(year + " This is leap year ");
+        } else {
+
+            System.out.println(year + " This is typical year ");
         }
     }
 
+    // Conditional_06 The integer number in diapason from 1 to 999 . Output to console integer type(even or uneven)and digits quantity
+    public void check06(int n) {
+        System.out.println("Conditional_06 The integer number in diapason from 1 to 999 . Output to console integer type(even or uneven)and digits quantity");
+        System.out.println("Integer is equal " + n);
+        if (n % 2 == 0) {
+            if (n < 10)
+                System.out.println("This is even 1 digit number ");
+            else if (n < 100 && n >= 10)
+                System.out.println("This is even 2 digit number ");
+            else if (n >= 100 && n <= 999)
+                System.out.println("This is even 3 digit number");
+            else
+                System.out.println("This integer is not in diapason from 1 to 999");
+        }
+        if (n % 2 != 0) {
+            if (n < 10)
+                System.out.println("This is uneven 1 digit number ");
+            else if (n < 100 && n >= 10)
+                System.out.println("This is uneven 2 digit number ");
+            else if (n >= 100 && n <= 999)
+                System.out.println("This is uneven 3 digit number");
+            else
+                System.out.println("This integer is not in diapason from 1 to 999");
 
+        }
+    }
+
+    //Conditional_07 The are three variable of integer type if their values sorted in ascending order or sorted descending then change values on x2 from first values
+    //If is not  then change to 0 all values
+    public void check_07(int first, int second, int third) {
+        System.out.println("Conditional_07 The are three variable of integer type if their values sorted in ascending order or sorted descending then change values on x2 from first values \n" +
+                "                If is not  then change to 0 all values");
+        System.out.println("First variable has value " + first);
+        System.out.println("Second variable has value " + second);
+        System.out.println("Third variable has value " + third);
+        if (first < second && second < third) {
+            System.out.println("Ascending Values");
+            System.out.println("First variable new value " + first * 2);
+            System.out.println("Second variable new value " + second * 2);
+            System.out.println("Third variable new  value " + third * 2);
+
+        } else if (first > second & second > third & third < first) {
+            System.out.println("Values in descending order");
+            System.out.println("First variable new value " + first * 2);
+            System.out.println("Second variable new value " + second * 2);
+            System.out.println("Third variable new  value " + third * 2);
+        } else {
+            System.out.println("Variable values  are not ordered");
+            System.out.println("All variable has value 0 ");
+            first = 0;
+            second = 0;
+            third = 0;
+            System.out.println("First new value is  " + first);
+            System.out.println("Second new value is " + second);
+            System.out.println("Third new value " + third);
+
+        }
+
+
+    }
+
+    //Conditional_08 Three variables A , B and C has integer values. Create program which is find and output into console the roots of the quadratic equation or report when no  roots
+    public void check08(int A, int B, int C) {
+        System.out.println("Conditional_08 Three variables A , B and C has integer values. Create program which is find and output into console the roots of the quadratic equation or report when no  roots");
+        int D = (int) (Math.pow(B, 2) - 4 * (A * C));
+        double root01 = (B - (2 * B) + Math.sqrt(D)) / (2 * A);
+        double root02 = (B - (2 * B) - Math.sqrt(D)) / (2 * A);
+        if (D == 0) {
+            System.out.println("D is " + D + " Quadratic equation with one root " + root01);
+        } else if (D > 0) {
+            System.out.println("D is " + D + " Quadratic equation with two roots " + root01 + " and " + root02);
+        } else {
+            System.out.println("D is  "+D+" There are no roots ");
+        }
+
+
+    }
 }
