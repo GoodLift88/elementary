@@ -216,19 +216,18 @@ public class M1P2_ConditionalOperators {
         System.out.println("Conditional_10  The traffic light for foot passengers programed like cycle where first three minutes is green light next two is yellow and after two minutes is red." +
                 "The integer number T has value what means time in minutes for one hour." +
                 "Identify what colour will  in this  moment time. Output result into console.");
-        int Minute = 60;
-        int TMP = Minute/T;
+
         System.out.println("T equals "+T);
 
-        if (TMP%10 <= 2) {
+        if (T%7 <= 3) {
             System.out.println("Now is Green Light");
 
         }
-        else if (TMP%10>=3 && TMP%10<=4){
+        else if (T%7 >= 4 && T%7<=5){
             System.out.println("Now is Yellow Light");
 
         }
-        else if (TMP%10>=5 && TMP%10<=6){
+        else if (T%7 >= 6 ){
             System.out.println("Now is Red Light ");
         }
         else{
