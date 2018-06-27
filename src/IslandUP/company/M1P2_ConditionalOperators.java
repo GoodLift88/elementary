@@ -176,16 +176,20 @@ public class M1P2_ConditionalOperators {
     //Conditional_09 Check a three-digit integer number. Determine whether the square of this number is equal to the sum of the cubes of its numerals. Output result into console
 
     public void check_09(int N) {
-        int numeral_01=N/100;
-        int numeral_02 = N/10;
-        int numeral_03 = N-(numeral_01+numeral_02);
+        int numeral_01 = N / 100;
+        int numeral_02 = N / 10 % 10;
+        int numeral_03 = N - (N - (N % 10));
         int N_in_Square = (int) Math.pow(N, 2);
         int first_numeralCube = (int) Math.pow(numeral_01, 3);
         int second_numeralCube = (int) Math.pow(numeral_02, 3);
         int third_numeralCube = (int) Math.pow(numeral_03, 3);
         int numeralsCubeSum = first_numeralCube + second_numeralCube + third_numeralCube;
-        if (N_in_Square == numeralsCubeSum) {
-            System.out.println("The number is "+N+"/n"+"First numeral is "+numeral_01);
+        delimiter();
+        System.out.println("Conditional_09 Check a three-digit integer number. Determine whether the square of this number is equal to the sum of the cubes of its numerals. Output result into console");
+        System.out.println("The number is \t" + N + " \tFirst numeral is " + numeral_01 + "\t Second numeral is " + numeral_02 + "\t Third numeral is " + numeral_03);
+        if ((N > 999 | N < 100)) {
+            System.out.println("The number is not diapason");
+        } else if (N_in_Square == numeralsCubeSum) {
 
 
             System.out.println("The square of number is " + N_in_Square);
@@ -193,12 +197,42 @@ public class M1P2_ConditionalOperators {
             System.out.println("Variables is equal");
 
 
-        } else {
-            System.out.println("The number is "+N+"First numeral is "+numeral_01);
+        } else if (N_in_Square != third_numeralCube) {
+
             System.out.println("The square of number is " + N_in_Square);
             System.out.println("The sum of the cubes numerals this number is " + numeralsCubeSum);
             System.out.println("Variables is not  equal");
 
+        }
+
+
+    }
+
+    //Conditional_10
+//The traffic light for foot passengers programed like cycle where first three minutes is green light next two is yellow and after two minutes is red.
+// The integer number T has value what means time in minutes for one hour.Identify what colour will  in this  moment time. Output result into console.
+    public void check10(int T) {
+        delimiter();
+        System.out.println("Conditional_10  The traffic light for foot passengers programed like cycle where first three minutes is green light next two is yellow and after two minutes is red." +
+                "The integer number T has value what means time in minutes for one hour." +
+                "Identify what colour will  in this  moment time. Output result into console.");
+        int Minute = 60;
+        int TMP = Minute/T;
+        System.out.println("T equals "+T);
+
+        if (TMP%10 <= 2) {
+            System.out.println("Now is Green Light");
+
+        }
+        else if (TMP%10>=3 && TMP%10<=4){
+            System.out.println("Now is Yellow Light");
+
+        }
+        else if (TMP%10>=5 && TMP%10<=6){
+            System.out.println("Now is Red Light ");
+        }
+        else{
+            System.out.println("Error !!!");
         }
 
     }
