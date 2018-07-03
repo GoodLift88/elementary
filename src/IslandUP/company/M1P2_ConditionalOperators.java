@@ -213,26 +213,65 @@ public class M1P2_ConditionalOperators {
 // The integer number T has value what means time in minutes for one hour.Identify what colour will  in this  moment time. Output result into console.
     public void check10(int T) {
         delimiter();
-        System.out.println("Conditional_10  The traffic light for foot passengers programed like cycle where first three minutes is green light next two is yellow and after two minutes is red." +
-                "The integer number T has value what means time in minutes for one hour." +
+        System.out.println("Conditional_10  The traffic light for foot passengers programed like cycle where first three minutes is green light next two is yellow and after two minutes is red.\n" +
+                "The integer number T has value what means time in minutes for one hour.\n" +
                 "Identify what colour will  in this  moment time. Output result into console.");
 
-        System.out.println("T equals "+T);
+        System.out.println("T equals " + T);
 
-        if (T%7 <= 3) {
+        if (T % 7 <= 3) {
             System.out.println("Now is Green Light");
 
-        }
-        else if (T%7 >= 4 && T%7<=5){
+        } else if (T % 7 >= 4 && T % 7 <= 5) {
             System.out.println("Now is Yellow Light");
 
-        }
-        else if (T%7 >= 6 ){
+        } else if (T % 7 >= 6) {
             System.out.println("Now is Red Light ");
-        }
-        else{
+        } else {
             System.out.println("Error !!!");
         }
 
+    }
+
+    //Conditional_11
+    // Create program which determinate day of the week by its serial number Output result into console
+    public void helpMethod(int i, String s) {
+
+        System.out.println(s + i);
+    }
+
+    public void check011(int Day) {
+        delimiter();
+
+        System.out.println("Conditional_11 Create program which determinate day of the week by its serial number Output result into console");
+        helpMethod(Day, "For example value is  ");
+        switch (Day) {
+            case 1:
+                System.out.println("It's Sunday today ");
+                break;
+            case 2:
+                System.out.println("It's Monday today");
+                break;
+            case 3:
+                System.out.println("It's a Tuesday today");
+                break;
+            case 4:
+                System.out.println("It's a Wednesday today");
+                break;
+            case 5:
+                System.out.println("It's a Thursday today");
+                break;
+            case 6:
+                System.out.println("It's a Friday today");
+                break;
+            case 7:
+                System.out.println("Today is Saturday . The last day of the week ");
+                break;
+
+
+        }
+        if (Day < 1 || Day > 8) {
+            System.out.println("Error ");
+        }
     }
 }
