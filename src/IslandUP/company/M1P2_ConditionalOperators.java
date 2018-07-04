@@ -274,4 +274,16 @@ public class M1P2_ConditionalOperators {
             System.out.println("Error ");
         }
     }
+
+    //Conditional_12
+    //One engineer created device whom show time in seconds to end of work . But every time very uncomfortable convert seconds to hours for workers .
+    // Write program which can convert seconds to hours
+    public void check012(int Seconds) {
+        int Begin = 28800; // All work time in seconds
+        int Hours = (Begin - Seconds) / 360;
+        switch (Hours) {
+
+
+        }
+    }
 }
