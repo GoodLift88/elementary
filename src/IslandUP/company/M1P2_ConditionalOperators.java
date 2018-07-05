@@ -278,12 +278,59 @@ public class M1P2_ConditionalOperators {
     //Conditional_12
     //One engineer created device whom show time in seconds to end of work . But every time very uncomfortable convert seconds to hours for workers .
     // Write program which can convert seconds to hours
+    public void task_text() {
+        System.out.println("Conditional_12\n" + "One engineer created device whom show time in seconds to end of work.\n" +
+                "But every time very uncomfortable convert seconds to hours for workers.\n"
+                + "Write program which can convert seconds to hours");
+    }
+
     public void check012(int Seconds) {
+        delimiter();
+        task_text();
+
         int Begin = 28800; // All work time in seconds
-        int Hours = (Begin - Seconds) / 360;
+        int Hours = (Begin - Seconds) / 3600;
+        int Minutes = Hours / 60;
+        int time = Minutes / 60;
+        double time01;
+
+        System.out.println("Seconds passed " + Seconds);
+        System.out.println("Minutes passed " + Minutes);
+        System.out.println(time);
+
         switch (Hours) {
+            case 0:
+                System.out.println("It's less than one hour. Almost all");
+                break;
+            case 1:
+                System.out.println("It remains to work more than an hour");
+                break;
+            case 2:
+                System.out.println("It remains to work more than an two hours");
+                break;
+            case 3:
+                System.out.println("It remains to work more than an three hours");
+                break;
+            case 4:
+                System.out.println("It remains to work more than an four hours");
+                break;
+            case 5:
+                System.out.println("It remains to work more than an five hours");
+                break;
+            case 6:
+                System.out.println("It remains to work more than an six hours");
+                break;
+            case 7:
+                System.out.println("It remains to work more than an seven hours");
+                break;
+            case 8:
+                System.out.println("Ready to hard work monkeys.Day just begun");
+                break;
 
 
         }
+        //  if (Hours < 0 || Hours >= 9) {
+        //      System.out.println("Incorrect value ");
     }
 }
+
