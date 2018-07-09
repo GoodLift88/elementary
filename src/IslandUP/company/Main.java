@@ -31,6 +31,9 @@ public class Main {
         m1P2_conditionalOperators.check_09(691);
         m1P2_conditionalOperators.check10(10);
         m1P2_conditionalOperators.check011(1);
-        m1P2_conditionalOperators.check012(12000);
+        m1P2_conditionalOperators.check012(3243);
     }
-}
+
+
+    }
+
