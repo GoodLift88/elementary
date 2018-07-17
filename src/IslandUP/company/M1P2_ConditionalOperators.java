@@ -312,53 +312,53 @@ public class M1P2_ConditionalOperators {
                     if (Minutes == 0) {
                         System.out.println("It remains to work an hour");
                     } else {
-                        System.err.println("It remains to work less an hour");
+                        System.out.println("It remains to work less an hour");
                     }
                     break;
                 case 6:
                     if (Minutes == 0) {
                         System.out.println("It remains to work two hours");
                     } else {
-                        System.err.println("It remains to work less two hours");
+                        System.out.println("It remains to work less two hours");
                     }
                     break;
                 case 5:
                     if (Minutes == 0) {
                         System.out.println("It remains to work three hours");
                     } else {
-                        System.err.println("It remains to work less three hours");
+                        System.out.println("It remains to work less three hours");
                     }
                     break;
                 case 4:
                     if (Minutes == 0) {
                         System.out.println("It remains to work four hours");
                     } else {
-                        System.err.println("It remains to work less four hours");
+                        System.out.println("It remains to work less four hours");
                     }
                     break;
                 case 3:
                     if (Minutes == 0) {
                         System.out.println("It remains to work five hours");
                     } else {
-                        System.err.println("It remains to work less five hours");
+                        System.out.println("It remains to work less five hours");
                     }
                     break;
                 case 2:
                     if (Minutes == 0) {
                         System.out.println("It remains to work six hours");
                     } else {
-                        System.err.println("It remains to work less six hours");
+                        System.out.println("It remains to work less six hours");
                     }
                     break;
                 case 1:
                     if (Minutes == 0) {
                         System.out.println("It remains to work seven hours");
                     } else {
-                        System.err.println("It remains to work less seven  hours");
+                        System.out.println("It remains to work less seven  hours");
                     }
                     break;
                 case 0:
-                    System.err.println("Ready to hard work monkeys.Day just begun");
+                    System.out.println("Ready to hard work monkeys.Day just begun");
                     break;
 
 
@@ -366,6 +366,120 @@ public class M1P2_ConditionalOperators {
         }
 
     }
+
+    //Conditional 013
+    //*In some far east countries (China,Japan and other ) in old time (and today unofficially)used calendar which have difference with typical european.In base of this calendar is 60 years big cycle .
+    // All big 60 cycle has 5 sub cycles . Each sub cycle contain 12 years period and every year of this period  was  named of one animal
+    //(Rat,Cow,Tiger,Hare,Dragon,Snake,Horse,Sheep,Monkey,Cock,Dog and Pig).
+    //Moreover every year has color which mean one of  five nature elements .
+    //Tree(green),Fire(red),Ground(yellow),Metal(white),Water(black). In over result each animal has one of this color . Every color in big 60 cycle(begin from green)
+    // is valid for 2 years.Write program what determine color and animal of year n . Result output in console
+    public void check013Text() {
+        System.out.println("Conditional_13\n" +
+                "In some far east countries (China,Japan and other ) in old time (and today unofficially)used calendar which have difference with typical european.\n"
+                + "In base of this calendar is 60 years big cycle .\n" +
+                "All big 60 cycle has 5 sub cycles .\n" +
+
+                "Each sub cycle contain 12 years period and every year of this period  was  named of one animal\n" +
+                "(Rat,Cow,Tiger,Hare,Dragon,Snake,Horse,Sheep,Monkey,Cock,Dog and Pig\n"
+                + "Moreover every year has color which mean one of  five nature elements.\n" +
+                "Tree(green),Fire(red),Ground(yellow),Metal(white),Water(black). In over result each animal has one of this color\n"
+                + "Every color in big 60 cycle(begin from green)\n" +
+                "is valid for 2 years.Write program what determine color and animal of year n . Result output in console");
+
+    }
+
+    public void check013(int n) {
+        delimiter();
+        check013Text();
+        int beginPeriod = 1960;// first year of 60 years cycle
+        int overPeriod = 2020;// last year of 60 years cycle
+        int subCycle = 12;
+        int tmp = n - beginPeriod;
+        int animalYear = tmp - ((tmp / subCycle) * 12);
+        int animalColor = n % 10;
+        if (n < beginPeriod || n > overPeriod) {
+            System.err.println("Incorrect type. Correct work only in diapason from 1960 to 2020");
+        } else {
+            System.out.println("Year "+n);
+
+            switch (animalYear) {
+                case 0:
+                    System.out.println("Animal Rat");
+                    break;
+                case 1:
+                    System.out.println("Animal Cow");
+                    break;
+                case 2:
+                    System.out.println(" Tiger");
+                    break;
+                case 3:
+                    System.out.println("Animal Hare");
+                    break;
+                case 4:
+                    System.out.println("Animal Dragon");
+                    break;
+                case 5:
+                    System.out.println("Animal Snake");
+                    break;
+                case 6:
+                    System.out.println("Animal Horse");
+                    break;
+                case 7:
+                    System.out.println("Animal Sheep");
+                    break;
+                case 8:
+                    System.out.println("Animal Monkey");
+                    break;
+                case 9:
+                    System.out.println("Animal Cock");
+                    break;
+                case 10:
+                    System.out.println("Animal Dog");
+                    break;
+                case 11:
+                    System.out.println("Animal Pig");
+                    break;
+            }
+            //the big 60 years cycle started at 1960 years it was white Rat year
+            switch (animalColor) {
+                case 0:
+                    System.out.println("Color White");
+                    break;
+
+                case 1:
+                    System.out.println("Color White");
+                    break;
+                case 2:
+                    System.out.println("Color Black");
+                    break;
+                case 3:
+                    System.out.println("Color Black");
+                    break;
+                case 4:
+                    System.out.println("Color Green ");
+                    break;
+                case 5:
+                    System.out.println("Color Green");
+                    break;
+                case 6:
+                    System.out.println("Color Red");
+                    break;
+                case 7:
+                    System.out.println("Color Red");
+                    break;
+                case 8:
+                    System.out.println("Color Yellow");
+                    break;
+                case 9:
+                    System.out.println("Color Yellow");
+                    break;
+            }
+
+
+        }
+    }
 }
+
 
 

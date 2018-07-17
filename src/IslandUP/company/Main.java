@@ -32,6 +32,7 @@ public class Main {
         m1P2_conditionalOperators.check10(10);
         m1P2_conditionalOperators.check011(1);
         m1P2_conditionalOperators.check012(3243);
+        m1P2_conditionalOperators.check013(1995);
     }
 
 
