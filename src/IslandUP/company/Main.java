@@ -23,18 +23,20 @@ public class Main {
         m1P2_conditionalOperators.check(-1);
         m1P2_conditionalOperators.check02(-54);
         m1P2_conditionalOperators.check03(3);
-        m1P2_conditionalOperators.check04(-5,-1,-56);
+        m1P2_conditionalOperators.check04(-5, -1, -56);
         m1P2_conditionalOperators.check05(1588);
         m1P2_conditionalOperators.check06(1);
-        m1P2_conditionalOperators.check_07(45,155,1);
-        m1P2_conditionalOperators.check08(1,12,1);
+        m1P2_conditionalOperators.check_07(45, 155, 1);
+        m1P2_conditionalOperators.check08(1, 12, 1);
         m1P2_conditionalOperators.check_09(691);
         m1P2_conditionalOperators.check10(10);
         m1P2_conditionalOperators.check011(1);
         m1P2_conditionalOperators.check012(3243);
         m1P2_conditionalOperators.check013(1995);
+        m1P2_conditionalOperators.check014(1,1);
+
     }
 
 
-    }
+}
 

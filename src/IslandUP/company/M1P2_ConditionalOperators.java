@@ -401,7 +401,7 @@ public class M1P2_ConditionalOperators {
         if (n < beginPeriod || n > overPeriod) {
             System.err.println("Incorrect type. Correct work only in diapason from 1960 to 2020");
         } else {
-            System.out.println("Year "+n);
+            System.out.println("Year " + n);
 
             switch (animalYear) {
                 case 0:
@@ -479,6 +479,109 @@ public class M1P2_ConditionalOperators {
 
         }
     }
+
+    //Conditional_014
+    /*Two numbers D(Day) and Month) which determine current date . Output in console   Zodiac sign what
+corresponds to this date*/
+    public void Task014Text() {
+        System.out.println("Two numbers D(Day) and Month) which determine current date.\n" +
+                "Output in console Zodiac sign what \n" +
+                "corresponds to this date");
+    }
+
+    public void check014(int D, int M) {
+        delimiter();
+        Task014Text();
+        switch (M) {
+            case 1:
+                if (D > 19) {
+                    System.out.println("The Water-Bearer");
+                } else {
+                    System.out.println("Goat-Horned");
+                }
+                break;
+            case 2:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 3:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 4:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 5:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 6:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 7:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 8:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 9:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 10:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 11:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+            case 12:
+                if (D > 19) {
+                    System.out.println("Aquarius");
+                } else {
+                    System.out.println("Capricorn");
+                }
+                break;
+
+        }
+    }
+
+
 }
 
 
