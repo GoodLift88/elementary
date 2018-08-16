@@ -492,89 +492,92 @@ corresponds to this date*/
     public void check014(int D, int M) {
         delimiter();
         Task014Text();
+        delimiter();
+        System.out.println("Your birth date:" + D + " " + M);
+        System.out.println("Your zodiac sign:");
         switch (M) {
             case 1:
                 if (D > 19) {
-                    System.out.println("The Water-Bearer");
+                    System.out.println("Aquarius ♒");
                 } else {
-                    System.out.println("Goat-Horned");
+                    System.out.println("Capricorn ♑");
                 }
                 break;
             case 2:
                 if (D > 19) {
-                    System.out.println("Aquarius");
+                    System.out.println("Pisces ♓");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Aquarius♒");
                 }
                 break;
             case 3:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 20) {
+                    System.out.println("Aries ♈");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Pisces ♓");
                 }
                 break;
             case 4:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 20) {
+                    System.out.println("Taurus ♉");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Aries ♈");
                 }
                 break;
             case 5:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 21) {
+                    System.out.println("Gemini ♊");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Taurus  ♉ ");
                 }
                 break;
             case 6:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 21) {
+                    System.out.println("Cancer ♋");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Gemini ♊");
                 }
                 break;
             case 7:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 22) {
+                    System.out.println("Leo ♌");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Cancer ♋");
                 }
                 break;
             case 8:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 22) {
+                    System.out.println("Virgo ♍");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Leo ♌");
                 }
                 break;
             case 9:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 23) {
+                    System.out.println("Libra ♎");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Virgo ♍");
                 }
                 break;
             case 10:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 23) {
+                    System.out.println("Scorpio ♏");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Libra ♎");
                 }
                 break;
             case 11:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 22) {
+                    System.out.println("Sagittarius ♐");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Scorpio ♏");
                 }
                 break;
             case 12:
-                if (D > 19) {
-                    System.out.println("Aquarius");
+                if (D > 21) {
+                    System.out.println("Capricorn ♑");
                 } else {
-                    System.out.println("Capricorn");
+                    System.out.println("Sagittarius ♐");
                 }
                 break;
 

@@ -15,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IslandUP/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="595">
+              <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -24,8 +24,8 @@
       <file leaf-file-name="M1P2_ConditionalOperators.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IslandUP/company/M1P2_ConditionalOperators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="572" column="19" selection-start-line="572" selection-start-column="19" selection-end-line="572" selection-end-column="19" />
+            <state relative-caret-position="-1238">
+              <caret line="495" column="54" selection-start-line="495" selection-start-column="54" selection-end-line="495" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -33,7 +33,7 @@
       <file leaf-file-name="M1P1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IslandUP/company/M1P1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
+            <state relative-caret-position="224">
               <caret line="159" column="43" selection-start-line="159" selection-start-column="43" selection-end-line="159" selection-end-column="43" />
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/IslandUP/company/ArifmeticTasks.java" />
         <option value="$PROJECT_DIR$/src/IslandUP/company/M1P1.java" />
-        <option value="$PROJECT_DIR$/src/IslandUP/company/Main.java" />
         <option value="$PROJECT_DIR$/src/IslandUP/company/M1P2_ConditionalOperators.java" />
+        <option value="$PROJECT_DIR$/src/IslandUP/company/Main.java" />
       </list>
     </option>
   </component>
@@ -71,10 +71,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1072" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="889" />
+    <option name="width" value="1013" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -83,7 +82,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -112,6 +110,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,6 +200,8 @@
       <workItem from="1531827907369" duration="1308000" />
       <workItem from="1532675300415" duration="1053000" />
       <workItem from="1532678517172" duration="5741000" />
+      <workItem from="1534408951845" duration="1027000" />
+      <workItem from="1534411810191" duration="2701000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1529062867644</created>
@@ -220,7 +221,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104369000" />
+    <option name="totallyTimeSpent" value="108097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,7 +233,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
@@ -244,7 +246,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3373232" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40805224" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40805224" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297062" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -269,7 +271,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31664854" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.096481875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -279,7 +281,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297062" />
@@ -288,10 +290,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3297062" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,22 +639,22 @@
     <entry file="file://$PROJECT_DIR$/src/IslandUP/company/ArifmeticTasks.java" />
     <entry file="file://$PROJECT_DIR$/src/IslandUP/company/M1P1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
+        <state relative-caret-position="224">
           <caret line="159" column="43" selection-start-line="159" selection-start-column="43" selection-end-line="159" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IslandUP/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="595">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IslandUP/company/M1P2_ConditionalOperators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="572" column="19" selection-start-line="572" selection-start-column="19" selection-end-line="572" selection-end-column="19" />
+        <state relative-caret-position="-1238">
+          <caret line="495" column="54" selection-start-line="495" selection-start-column="54" selection-end-line="495" selection-end-column="54" />
         </state>
       </provider>
     </entry>
