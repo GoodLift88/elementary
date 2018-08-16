@@ -585,7 +585,12 @@ corresponds to this date*/
     }
 
 
-}
 
+}
+/*
+Locator is oriented to one of Earth side. N - north, S- south, E - east, W - west and can read three  commands. 1 - turn left, (-1) - turn right,
+ 2 - turn to 180 degree. Character C is starting position and  integers N1 and N2 two
+ comands to locator.Output information  about locator position after
+ executing commands*/
 
 
